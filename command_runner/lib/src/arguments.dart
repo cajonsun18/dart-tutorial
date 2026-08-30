@@ -43,10 +43,10 @@ class Option extends Argument {
   @override
   String get usage {
       if (abbr != null) {
-        return '-§abbr, --§name: $help';
+        return '-$abbr, --$name: $help';
       }
 
-      return '--§name: $help';
+      return '--$name: $help';
   }
 }
 
@@ -123,7 +123,7 @@ class ArgResults {
 
   // Returns true if the flag exists.
   bool flag(String name) {
-    //Only check flags, bechause we're sure that flags are booleans.
+    //Only check flags, because we're sure that flags are booleans.
     for (var option in options.keys.where(
     (option) => option.type == OptionType.flag,
     )) {
