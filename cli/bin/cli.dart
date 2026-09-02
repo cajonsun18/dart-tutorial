@@ -12,6 +12,8 @@ void main(List<String> arguments) {
         print(error);
       }
     },
-  )..addCommand(HelpCommand());
+  )..addCommand(HelpCommand())
+   ..addCommand(PrettyEcho());
+
   commandRunner.run(arguments);
 }
