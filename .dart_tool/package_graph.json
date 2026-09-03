@@ -18,7 +18,8 @@
       "dependencies": [
         "command_runner",
         "http",
-        "path"
+        "logging",
+        "wikipedia"
       ],
       "devDependencies": [
         "lints",
@@ -48,7 +49,7 @@
     },
     {
       "name": "test",
-      "version": "1.31.2",
+      "version": "1.32.0",
       "dependencies": [
         "analyzer",
         "async",
@@ -98,6 +99,11 @@
       "dependencies": []
     },
     {
+      "name": "logging",
+      "version": "1.3.0",
+      "dependencies": []
+    },
+    {
       "name": "yaml",
       "version": "3.1.4",
       "dependencies": [
@@ -133,7 +139,7 @@
     },
     {
       "name": "test_core",
-      "version": "0.6.19",
+      "version": "0.6.20",
       "dependencies": [
         "analyzer",
         "args",
@@ -160,7 +166,7 @@
     },
     {
       "name": "test_api",
-      "version": "0.7.13",
+      "version": "0.7.14",
       "dependencies": [
         "async",
         "boolean_selector",
@@ -366,11 +372,6 @@
       "dependencies": [
         "source_span"
       ]
-    },
-    {
-      "name": "logging",
-      "version": "1.3.0",
-      "dependencies": []
     },
     {
       "name": "web_socket",

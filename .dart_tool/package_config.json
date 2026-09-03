@@ -231,19 +231,19 @@
     },
     {
       "name": "test",
-      "rootUri": "file:///C:/Users/oleja/AppData/Local/Pub/Cache/hosted/pub.dev/test-1.31.2",
+      "rootUri": "file:///C:/Users/oleja/AppData/Local/Pub/Cache/hosted/pub.dev/test-1.32.0",
       "packageUri": "lib/",
       "languageVersion": "3.11"
     },
     {
       "name": "test_api",
-      "rootUri": "file:///C:/Users/oleja/AppData/Local/Pub/Cache/hosted/pub.dev/test_api-0.7.13",
+      "rootUri": "file:///C:/Users/oleja/AppData/Local/Pub/Cache/hosted/pub.dev/test_api-0.7.14",
       "packageUri": "lib/",
       "languageVersion": "3.11"
     },
     {
       "name": "test_core",
-      "rootUri": "file:///C:/Users/oleja/AppData/Local/Pub/Cache/hosted/pub.dev/test_core-0.6.19",
+      "rootUri": "file:///C:/Users/oleja/AppData/Local/Pub/Cache/hosted/pub.dev/test_core-0.6.20",
       "packageUri": "lib/",
       "languageVersion": "3.11"
     },
